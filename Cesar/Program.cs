@@ -18,7 +18,7 @@ namespace Cesar
 
                 if (choix == "1")
                 {
-                    Console.WriteLine("Saisir le mot à chiffrer");
+                    Console.WriteLine("Saisir le message à chiffrer");
                     string mot = Console.ReadLine().ToUpper();
                     int cle = 0;
                     bool ok = true;
@@ -47,7 +47,7 @@ namespace Cesar
 
                 if(choix == "2")
                 {
-                    Console.WriteLine("Saisir le mot à déchiffrer");
+                    Console.WriteLine("Saisir le message à déchiffrer");
                     string motCrypte = Console.ReadLine().ToUpper();
                     Console.WriteLine("Voici toutes les possibilité :\n");
                     for (int decalage = 1; decalage < 26; decalage++)
