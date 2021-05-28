@@ -53,7 +53,7 @@ namespace Cesar
                     for (int decalage = 1; decalage < 26; decalage++)
                     {
                         string motDecrypte = dechiffre(motCrypte, decalage);                        
-                        Console.WriteLine($"{motDecrypte} (Décalage de {decalage} lettre(s))");
+                        Console.WriteLine(motDecrypte);
                     }
                     Console.WriteLine("\n");
                 }
@@ -69,10 +69,7 @@ namespace Cesar
             Console.WriteLine("Déchiffrer : 2");
             Console.WriteLine("Sortie : 0 \n");
             return Console.ReadLine();
-        }
-
-
- 
+        } 
 
         /// <summary>
         /// Chiffre un mot par la cryptographie de César.
