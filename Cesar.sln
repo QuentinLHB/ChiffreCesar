@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesar", "Cesar\Cesar.csproj", "{73C9AF0B-04DB-4CAC-8951-FB68CF5300B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73C9AF0B-04DB-4CAC-8951-FB68CF5300B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C9AF0B-04DB-4CAC-8951-FB68CF5300B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C9AF0B-04DB-4CAC-8951-FB68CF5300B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C9AF0B-04DB-4CAC-8951-FB68CF5300B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D312266-C338-4F21-B94A-FF4D8B47E1A8}
+	EndGlobalSection
+EndGlobal
